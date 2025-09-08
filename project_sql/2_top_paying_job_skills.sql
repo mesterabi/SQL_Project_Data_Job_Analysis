@@ -41,7 +41,6 @@ WITH top_paying_jobs AS (
 -- Approach 1: Row-per-skill
 -- Provides a detailed look at each skill required per job.
 -- Useful for analyzing skill frequencies and building visualizations.
--- Full JSON results saved to: top_paying_job_skills_result_approach_1.json
 SELECT 
     top_paying_jobs.*,
     skill.skills
@@ -54,11 +53,13 @@ JOIN
 ORDER BY 
     top_paying_jobs.salary_year_avg DESC;
 
+-- Full JSON results saved to: top_paying_job_skills_result_approach_1.json
+
+
 
 -- Approach 2: Aggregated skills
 -- Summarizes all skills for each job into a single row.
 -- Useful for human-readable reporting and stakeholder presentations.
--- Full JSON results saved to: top_paying_job_skills_result_approach_2.json
 SELECT 
     top_paying_jobs.*,
     STRING_AGG(skill.skills, ', ') AS required_skills
@@ -75,3 +76,6 @@ GROUP BY
     top_paying_jobs.salary_year_avg
 ORDER BY 
     top_paying_jobs.salary_year_avg DESC;
+
+-- Full JSON results saved to: top_paying_job_skills_result_approach_2.json
+

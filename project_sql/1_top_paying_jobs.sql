@@ -29,3 +29,5 @@ WHERE
 ORDER BY
     salary_year_avg DESC
 LIMIT 10;
+
+-- Full JSON results saved to: top_paying_jobs_result.json
