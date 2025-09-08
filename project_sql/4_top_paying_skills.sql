@@ -35,4 +35,4 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 
--- Full JSON results saved to: 4_top_paying_skills.json
+-- Full JSON results saved to: 4_top_paying_skills_result.json
