@@ -1,0 +1,27 @@
+[
+  {
+    "skill_id": 0,
+    "skills": "sql",
+    "demand_count": "92628"
+  },
+  {
+    "skill_id": 181,
+    "skills": "excel",
+    "demand_count": "67031"
+  },
+  {
+    "skill_id": 1,
+    "skills": "python",
+    "demand_count": "57326"
+  },
+  {
+    "skill_id": 182,
+    "skills": "tableau",
+    "demand_count": "46554"
+  },
+  {
+    "skill_id": 183,
+    "skills": "power bi",
+    "demand_count": "39468"
+  }
+]
