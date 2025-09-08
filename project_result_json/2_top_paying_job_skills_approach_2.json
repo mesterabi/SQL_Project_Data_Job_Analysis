@@ -1,0 +1,58 @@
+[
+  {
+    "job_id": 552322,
+    "job_title": "Associate Director- Data Insights",
+    "company_name": "AT&T",
+    "salary_year_avg": "255829.5",
+    "required_skills": "sql, python, r, azure, databricks, aws, pandas, pyspark, jupyter, excel, tableau, power bi, powerpoint"
+  },
+  {
+    "job_id": 99305,
+    "job_title": "Data Analyst, Marketing",
+    "company_name": "Pinterest Job Advertisements",
+    "salary_year_avg": "232423.0",
+    "required_skills": "sql, python, r, hadoop, tableau"
+  },
+  {
+    "job_id": 1021647,
+    "job_title": "Data Analyst (Hybrid/Remote)",
+    "company_name": "Uclahealthcareers",
+    "salary_year_avg": "217000.0",
+    "required_skills": "sql, crystal, oracle, tableau, flow"
+  },
+  {
+    "job_id": 168310,
+    "job_title": "Principal Data Analyst (Remote)",
+    "company_name": "SmartAsset",
+    "salary_year_avg": "205000.0",
+    "required_skills": "sql, python, go, snowflake, pandas, numpy, excel, tableau, gitlab"
+  },
+  {
+    "job_id": 731368,
+    "job_title": "Director, Data Analyst - HYBRID",
+    "company_name": "Inclusively",
+    "salary_year_avg": "189309.0",
+    "required_skills": "sql, python, azure, aws, oracle, snowflake, tableau, power bi, sap, jenkins, bitbucket, atlassian, jira, confluence"
+  },
+  {
+    "job_id": 310660,
+    "job_title": "Principal Data Analyst, AV Performance Analysis",
+    "company_name": "Motional",
+    "salary_year_avg": "189000.0",
+    "required_skills": "sql, python, r, git, bitbucket, atlassian, jira, confluence"
+  },
+  {
+    "job_id": 1749593,
+    "job_title": "Principal Data Analyst",
+    "company_name": "SmartAsset",
+    "salary_year_avg": "186000.0",
+    "required_skills": "sql, python, go, snowflake, pandas, numpy, excel, tableau, gitlab"
+  },
+  {
+    "job_id": 387860,
+    "job_title": "ERM Data Analyst",
+    "company_name": "Get It Recruit - Information Technology",
+    "salary_year_avg": "184000.0",
+    "required_skills": "sql, python, r"
+  }
+]
