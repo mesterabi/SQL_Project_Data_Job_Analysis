@@ -18,7 +18,7 @@ SELECT
     job_posted_date
 FROM
     job_postings_fact job_posting
-JOIN
+LEFT JOIN
     company_dim company ON job_posting.company_id = company.company_id
 WHERE
     job_title_short = 'Data Analyst'
