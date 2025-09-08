@@ -1,11 +1,13 @@
 /*
-Question: What are the top-paying data analyst jobs?
-- Identify the top 10 highest-paying Data Analyst roles that are available in Toronto or remote
-- Focuses on job postings with specified salaries (remove nulls)
-- BONUS: Include company names of top 10 roles
-- Why? Highlight the top-paying opportunities for Data Analysts, offering insights into employment options and location flexibility.
-*/
+Project: Top-Paying Data Analyst Jobs
 
+Question: What are the top-paying data analyst jobs?
+- Focus: Identify the top 10 highest-paying Data Analyst roles in Toronto or remote
+- Data filters: Only include postings with specified salaries (exclude nulls)
+- Includes company names for additional context
+- Why: Highlights top-paying opportunities for Data Analysts and provides insights 
+       into employment options and location flexibility
+*/
 
 
 SELECT
