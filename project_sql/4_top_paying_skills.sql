@@ -17,14 +17,14 @@ Question: What are the top skills based on salary for Data Analyst roles?
 
 
 SELECT 
-    skills,
+    skill.skills,
     ROUND(AVG(salary_year_avg), 0) AS avg_salary
-FROM
-    job_postings_fact
+FROM 
+    job_postings_fact job_posting
+JOIN 
+    skills_job_dim skill_job ON job_posting.job_id = skill_job.job_id
 JOIN
-    skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
-JOIN
-    skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+    skills_dim skill ON skill_job.skill_id = skill.skill_id
 WHERE
     job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
